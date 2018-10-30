@@ -13,3 +13,49 @@
 .normal-tx{
 
 }
+
+#form{
+  width: 60%;
+  margin: 20%;
+
+}
+
+input[type=submit] ,input[type=text] ,textarea{
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+input[type=text]{
+  width: 49.5%;
+}
+
+textarea{
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+input[type=submit]{
+  width: 20%;
+  color:white;
+  background-color:#f0b200;
+}
+
+@media only screen and (max-width:750px) {
+  #form{
+    width: 100%;
+    margin: auto;
+  }
+  input[type=text]{
+    width: 100%;
+  }
+  textarea{
+    width: 100%;
+  }
+  input[type=submit]{
+    width: 40%;
+  }
+}
