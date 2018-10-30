@@ -8,14 +8,16 @@
 
 .hard-tx{
     color: #f0b200;
+    font-size: 40px;
 }
 
 .normal-tx{
-
+color: white;
+font-size: 35px;
 }
 #about{
 
 display: block;
 margin: 0 auto;
-padding:5px 10px;
+padding:5px 15px;
 }
