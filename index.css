@@ -11,12 +11,50 @@
 }
 
 .normal-tx{
+    color: white;
+}
+
+.team-container{
+    margin: 70px auto;
+    overflow: auto;
+}
+
+#team{
+    overflow: auto;
+}
+
+.team-div{
+    clear: both;
+    height: auto;
+    overflow: auto;
+    margin: 10px 8%;
+}
+
+.img-team-right {
+    float: right;
+}
+
+.img-team-left{
+    float: left;
+}
+
+.team-img{
+    float: left;
+    width: 20%;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.team-desc{
 
 }
 
+
+
 #form{
   width: 60%;
-  margin: 20%;
+    margin: auto 20%;
+
 
 }
 
@@ -30,6 +68,7 @@ input[type=submit] ,input[type=text] ,textarea{
 
 input[type=text]{
   width: 49.5%;
+    margin-top: 70px;
 }
 
 textarea{
@@ -42,11 +81,20 @@ input[type=submit]{
   width: 20%;
   color:white;
   background-color:#f0b200;
+    margin-bottom: 7%;
 }
+
+
+footer{
+    text-align: center;
+    height: 50px;
+}
+
+
 
 @media only screen and (max-width:750px) {
   #form{
-    width: 100%;
+    width: 90%;
     margin: auto;
   }
   input[type=text]{
@@ -57,5 +105,20 @@ input[type=submit]{
   }
   input[type=submit]{
     width: 40%;
+      margin: 0 30% 30px 30%;
   }
+
+  #email{
+      margin-top: 0;
+  }
+
+
+    .team-img{
+        width: 20%;
+        border-radius: 100%;
+        margin-right: 40%;
+        margin-left: 40%;
+    }
+
 }
+
