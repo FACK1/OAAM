@@ -1,3 +1,8 @@
+*{
+    font-family: 'Abel', sans-serif;
+}
+
+
 html{
     margin: 0px;
 }
@@ -61,33 +66,33 @@ body{
 
 }
 .main-sub-heading{
-font-size: 30px;
-margin:20px  auto auto 150px;
+    font-size: 30px;
+    margin:20px  auto auto 150px;
 }
 
 input[type=submit] ,input[type=text] ,textarea{
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  padding: 8px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    padding: 8px;
 }
 
 input[type=text]{
-  width: 49.5%;
+    width: 49.5%;
     margin-top: 70px;
 }
 
 textarea{
-  width: 100%;
-  max-width: 100%;
-  min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 input[type=submit]{
-  width: 20%;
-  color:white;
-  background-color:#f0b200;
+    width: 20%;
+    color:white;
+    background-color:#f0b200;
     margin-bottom: 7%;
 }
 
@@ -116,114 +121,139 @@ footer{
 
 
 header{
-  margin:0px;
-  padding:0px;
-  width:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
 }
 
 .main-heading{
-  font-size:100px;
-  text-align:center;
-  margin:0px;
-  padding:50px;
-  color:#f0b200;
+    font-size:100px;
+    text-align:center;
+    margin:0px;
+    padding:50px;
+    color:#f0b200;
 }
 
 .navigation {
-  background-color:#f0b200;
-  color:#232424;
-  margin:0px;
-  padding:10px;
-  text-align: center;
-  position:sticky;
+    background-color:#f0b200;
+    color:#232424;
+    margin:0px;
+    padding:10px;
+    text-align: center;
+    position:sticky;
 
 }
 
 .navigation-list{
-  display:flex;
-  justify-content: space-around;
-  width:75%;
-  margin:auto;
-  margin-top:12px;
-  margin-bottom: 12px;
-  list-style-type: none;
-  padding:0px;
+    display:flex;
+    justify-content: space-around;
+    width:75%;
+    margin:auto;
+    margin-top:12px;
+    margin-bottom: 12px;
+    list-style-type: none;
+    padding:0px;
 }
 
 .navigation-list li {
-  display:inline-block;
-  font-size:25px;
-  font-weight:bold;
+    display:inline-block;
+    font-size:25px;
+    font-weight:bold;
 }
 
 
 .sub-heading{
-  background-image:url(web.jpg);
-  height:75vh;
-  width:100%;
-  background-position: 50%;
-  display:flex;
-  align-items: center;
-  background-repeat: no-repeat;
+    background-image:url(web.jpg);
+    height:75vh;
+    width:100%;
+    background-position: 50%;
+    display:flex;
+    align-items: center;
+    background-repeat: no-repeat;
 }
 
 .sub-sub-heading{
-  font-size:70px;
-  background-color:rgba(35,36,36,0.7);
-  padding:20px;
-  text-align:center;
-  color:white;
-  margin:auto;
+    font-size:70px;
+    background-color:rgba(35,36,36,0.7);
+    padding:20px;
+    text-align:center;
+    color:white;
+    margin:auto;
 
 }
 
 
 .navigation-list li a:link{
-  text-decoration:none;
-  color:#232424;
+    text-decoration:none;
+    color:#232424;
 }
 
 .navigation-list li a:hover{
-  font-size:30px;
+    font-size:30px;
 
 }
 
 
 .navigation-list li a:visited{
-  color:white;
-  }
+    color:white;
+}
+
+
+figure a{
+    color: white;
+    text-decoration: none;
+}
+
 
 
 @media only screen and (max-width: 750px) {
-  
+
+
+
+    .main-heading{
+        font-size: 50px;
+    }
+
+
+    .team-div{
+        text-align: center;
+    }
+
+
+    .main-sub-heading{
+        text-align: center;
+        margin: 20px auto auto 0px;
+    }
+
+
     .sub-sub-heading {
         font-size:35px;
     }
-  
-  .sub-heading {
+
+    .sub-heading {
         height:50vh;
         width:100%;
-  }
+    }
 
     #form{
-    width: 90%;
-    margin: auto;
-  }
-  input[type=text]{
-    width: 100%;
-  }
-  textarea{
-    width: 100%;
-  }
-  input[type=submit]{
-    width: 40%;
-      margin: 0 30% 30px 30%;
-  }
+        width: 90%;
+        margin: auto;
+    }
+    input[type=text]{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    input[type=submit]{
+        width: 40%;
+        margin: 0 30% 30px 30%;
+    }
 
-  #email{
-      margin-top: 0;
-  }
-   .team-img{
+    #email{
+        margin-top: 0;
+    }
+    .team-img{
         width: 20%;
         border-radius: 100%;
         margin-right: 40%;
@@ -232,7 +262,8 @@ header{
     .about-tx{
         font-size: 16px;
     }
-    
-    
+
+
+
+
 }
-  
