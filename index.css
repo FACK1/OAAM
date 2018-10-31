@@ -26,14 +26,8 @@ body{
 }
 
 .normal-tx{
-      color: white;
+    color: white;
     font-size: 20px;
-}
-
-header{
-  margin:0px;
-  padding:0px;
-  width:100%;
 }
 
 .team-container{
@@ -48,14 +42,12 @@ header{
     margin: 10px 8%;
 }
 
+.img-team-right {
+    float: right;
+}
 
-
-.main-heading{
-  font-size:100px;
-  text-align:center;
-  margin:0px;
-  padding:50px;
-  color:#f0b200;
+.img-team-left{
+    float: left;
 }
 
 .team-img{
@@ -63,6 +55,78 @@ header{
     width: 15%;
     border-radius: 100%;
     margin-right: 20px;
+}
+
+.team-desc{
+
+}
+.main-sub-heading{
+font-size: 30px;
+margin:20px  auto auto 150px;
+}
+
+input[type=submit] ,input[type=text] ,textarea{
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+input[type=text]{
+  width: 49.5%;
+    margin-top: 70px;
+}
+
+textarea{
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+input[type=submit]{
+  width: 20%;
+  color:white;
+  background-color:#f0b200;
+    margin-bottom: 7%;
+}
+
+footer{
+    text-align: center;
+    height: 50px;
+}
+
+#about{
+    display: block;
+    margin: 0 auto;
+    padding:70px 0px;
+}
+#form{
+    width: 60%;
+    margin: 0px 20%;
+}
+#team{
+    overflow: auto;
+    padding:70px 0px;
+}
+#contact-us{
+    overflow: auto;
+}
+
+
+
+header{
+  margin:0px;
+  padding:0px;
+  width:100%;
+}
+
+.main-heading{
+  font-size:100px;
+  text-align:center;
+  margin:0px;
+  padding:50px;
+  color:#f0b200;
 }
 
 .navigation {
@@ -84,11 +148,6 @@ header{
   margin-bottom: 12px;
   list-style-type: none;
   padding:0px;
-}
-
-.main-sub-heading{
-font-size: 30px;
-margin:20px  auto auto 150px;
 }
 
 .navigation-list li {
@@ -119,43 +178,6 @@ margin:20px  auto auto 150px;
 }
 
 
-
-
-@media only screen and (max-width: 750px) {
-  
-    .sub-sub-heading {
-        font-size:35px;
-    }
-  
-  .sub-heading {
-        height:50vh;
-        width:100%;
-  }
-footer{
-    text-align: center;
-    height: 50px;
-}
-
-#about{
-    display: block;
-    margin: 0 auto;
-    padding:70px 0px;
-}
-#form{
-    width: 60%;
-    margin: 0px 20%;
-}
-#team{
-    overflow: auto;
-    padding:70px 0px;
-}
-#contact-us{
-    overflow: auto;
-}
-
-    
-}
-
 .navigation-list li a:link{
   text-decoration:none;
   color:#232424;
@@ -170,7 +192,34 @@ footer{
 .navigation-list li a:visited{
   color:white;
   }
+
+
+@media only screen and (max-width: 750px) {
   
+    .sub-sub-heading {
+        font-size:35px;
+    }
+  
+  .sub-heading {
+        height:50vh;
+        width:100%;
+  }
+
+    #form{
+    width: 90%;
+    margin: auto;
+  }
+  input[type=text]{
+    width: 100%;
+  }
+  textarea{
+    width: 100%;
+  }
+  input[type=submit]{
+    width: 40%;
+      margin: 0 30% 30px 30%;
+  }
+
   #email{
       margin-top: 0;
   }
@@ -183,3 +232,7 @@ footer{
     .about-tx{
         font-size: 16px;
     }
+    
+    
+}
+  
