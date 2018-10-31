@@ -1,3 +1,11 @@
+html{
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+}
+
 .hard-bg{
     background-color:  #232424;
 }
@@ -10,16 +18,20 @@
     color: #f0b200;
 }
 
+.about-tx{
+    font-size: 40px;
+    text-align: center;
+    margin: 70px 10% 0px 10%;
+
+}
+
 .normal-tx{
     color: white;
+    font-size: 20px;
 }
 
 .team-container{
     margin: 70px auto;
-    overflow: auto;
-}
-
-#team{
     overflow: auto;
 }
 
@@ -40,7 +52,7 @@
 
 .team-img{
     float: left;
-    width: 20%;
+    width: 15%;
     border-radius: 100%;
     margin-right: 20px;
 }
@@ -48,14 +60,9 @@
 .team-desc{
 
 }
-
-
-
-#form{
-  width: 60%;
-    margin: auto 20%;
-
-
+.main-sub-heading{
+font-size: 30px;
+margin:20px  auto auto 150px;
 }
 
 input[type=submit] ,input[type=text] ,textarea{
@@ -84,12 +91,27 @@ input[type=submit]{
     margin-bottom: 7%;
 }
 
-
 footer{
     text-align: center;
     height: 50px;
 }
 
+#about{
+    display: block;
+    margin: 0 auto;
+    padding:70px 0px;
+}
+#form{
+    width: 60%;
+    margin: 0px 20%;
+}
+#team{
+    overflow: auto;
+    padding:70px 0px;
+}
+#contact-us{
+    overflow: auto;
+}
 
 
 @media only screen and (max-width:750px) {
@@ -111,14 +133,14 @@ footer{
   #email{
       margin-top: 0;
   }
-
-
-    .team-img{
+   .team-img{
         width: 20%;
         border-radius: 100%;
         margin-right: 40%;
         margin-left: 40%;
     }
-
+    .about-tx{
+        font-size: 16px;
+    }
 }
 
