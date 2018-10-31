@@ -26,8 +26,14 @@ body{
 }
 
 .normal-tx{
-    color: white;
+      color: white;
     font-size: 20px;
+}
+
+header{
+  margin:0px;
+  padding:0px;
+  width:100%;
 }
 
 .team-container{
@@ -42,12 +48,14 @@ body{
     margin: 10px 8%;
 }
 
-.img-team-right {
-    float: right;
-}
 
-.img-team-left{
-    float: left;
+
+.main-heading{
+  font-size:100px;
+  text-align:center;
+  margin:0px;
+  padding:50px;
+  color:#f0b200;
 }
 
 .team-img{
@@ -57,40 +65,72 @@ body{
     margin-right: 20px;
 }
 
-.team-desc{
+.navigation {
+  background-color:#f0b200;
+  color:#232424;
+  margin:0px;
+  padding:10px;
+  text-align: center;
+  position:sticky;
 
 }
+
+.navigation-list{
+  display:flex;
+  justify-content: space-around;
+  width:75%;
+  margin:auto;
+  margin-top:12px;
+  margin-bottom: 12px;
+  list-style-type: none;
+  padding:0px;
+}
+
 .main-sub-heading{
 font-size: 30px;
 margin:20px  auto auto 150px;
 }
 
-input[type=submit] ,input[type=text] ,textarea{
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  padding: 8px;
+.navigation-list li {
+  display:inline-block;
+  font-size:25px;
+  font-weight:bold;
 }
 
-input[type=text]{
-  width: 49.5%;
-    margin-top: 70px;
+
+.sub-heading{
+  background-image:url(web.jpg);
+  height:75vh;
+  width:100%;
+  background-position: 50%;
+  display:flex;
+  align-items: center;
+  background-repeat: no-repeat;
 }
 
-textarea{
-  width: 100%;
-  max-width: 100%;
-  min-width: 100%;
-}
-
-input[type=submit]{
-  width: 20%;
+.sub-sub-heading{
+  font-size:70px;
+  background-color:rgba(35,36,36,0.7);
+  padding:20px;
+  text-align:center;
   color:white;
-  background-color:#f0b200;
-    margin-bottom: 7%;
+  margin:auto;
+
 }
 
+
+
+
+@media only screen and (max-width: 750px) {
+  
+    .sub-sub-heading {
+        font-size:35px;
+    }
+  
+  .sub-heading {
+        height:50vh;
+        width:100%;
+  }
 footer{
     text-align: center;
     height: 50px;
@@ -113,23 +153,24 @@ footer{
     overflow: auto;
 }
 
+    
+}
 
-@media only screen and (max-width:750px) {
-  #form{
-    width: 90%;
-    margin: auto;
-  }
-  input[type=text]{
-    width: 100%;
-  }
-  textarea{
-    width: 100%;
-  }
-  input[type=submit]{
-    width: 40%;
-      margin: 0 30% 30px 30%;
-  }
+.navigation-list li a:link{
+  text-decoration:none;
+  color:#232424;
+}
 
+.navigation-list li a:hover{
+  font-size:30px;
+
+}
+
+
+.navigation-list li a:visited{
+  color:white;
+  }
+  
   #email{
       margin-top: 0;
   }
@@ -142,5 +183,3 @@ footer{
     .about-tx{
         font-size: 16px;
     }
-}
-
