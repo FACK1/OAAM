@@ -246,6 +246,10 @@ footer{
         height:50vh;
         width:100%;
     }
+    li a
+    {
+        font-size:15px;
+    }
     
 /*Header*/
     
