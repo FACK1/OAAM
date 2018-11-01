@@ -226,35 +226,20 @@ footer{
 
 /*Footer*/
 
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 750px) {
-
-
-
-    .main-heading{
-        font-size: 50px;
-    }
-
-
-    .team-div{
-        text-align: center;
-    }
-
-
+/*Global*/
     .main-sub-heading{
         text-align: center;
         margin: 20px auto auto 0px;
     }
 
-
+/*Global*/
+    
+/*Header*/
+    .main-heading{
+        font-size: 50px;
+    }
+    
     .sub-sub-heading {
         font-size:35px;
     }
@@ -263,7 +248,34 @@ footer{
         height:50vh;
         width:100%;
     }
-
+    
+/*Header*/
+    
+/*Team*/
+    .about-tx{
+        font-size: 16px;
+    }
+/*Team*/
+    
+/*Team*/
+    .team-div{
+        text-align: center;
+    }
+    .team-img{
+        width: 20%;
+        border-radius: 100%;
+        margin-right: 40%;
+        margin-left: 40%;
+    }
+     .team-img{
+        width: 20%;
+        border-radius: 100%;
+        margin-right: 40%;
+        margin-left: 40%;
+    }
+/*Team*/
+    
+/*Contact us*/
     #form{
         width: 90%;
         margin: auto;
@@ -282,17 +294,6 @@ footer{
     #email{
         margin-top: 0;
     }
-    .team-img{
-        width: 20%;
-        border-radius: 100%;
-        margin-right: 40%;
-        margin-left: 40%;
-    }
-    .about-tx{
-        font-size: 16px;
-    }
-
-
-
-
+    /*Contact us*/
+   
 }
