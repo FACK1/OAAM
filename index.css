@@ -1,3 +1,5 @@
+/*Global*/
+
 *{
     font-family: 'Abel', sans-serif;
 }
@@ -23,103 +25,19 @@ body{
     color: #f0b200;
 }
 
-.about-tx{
-    font-size: 40px;
-    text-align: center;
-    margin: 70px 10% 0px 10%;
-
-}
-
 .normal-tx{
     color: white;
     font-size: 20px;
 }
 
-.team-container{
-    margin: 70px auto;
-    overflow: auto;
-}
-
-.team-div{
-    clear: both;
-    height: auto;
-    overflow: auto;
-    margin: 10px 8%;
-}
-
-.img-team-right {
-    float: right;
-}
-
-.img-team-left{
-    float: left;
-}
-
-.team-img{
-    float: left;
-    width: 15%;
-    border-radius: 100%;
-    margin-right: 20px;
-}
-
-.team-desc{
-
-}
 .main-sub-heading{
     font-size: 30px;
     margin:20px  auto auto 150px;
 }
 
-input[type=submit] ,input[type=text] ,textarea{
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    padding: 8px;
-}
+/*Global*/
 
-input[type=text]{
-    width: 49.5%;
-    margin-top: 70px;
-}
-
-textarea{
-    width: 100%;
-    max-width: 100%;
-    min-width: 100%;
-}
-
-input[type=submit]{
-    width: 20%;
-    color:white;
-    background-color:#f0b200;
-    margin-bottom: 7%;
-}
-
-footer{
-    text-align: center;
-    height: 50px;
-}
-
-#about{
-    display: block;
-    margin: 0 auto;
-    padding:70px 0px;
-}
-#form{
-    width: 60%;
-    margin: 0px 20%;
-}
-#team{
-    overflow: auto;
-    padding:70px 0px;
-}
-#contact-us{
-    overflow: auto;
-}
-
-
-
+/*Header*/
 header{
     margin:0px;
     padding:0px;
@@ -198,11 +116,122 @@ header{
     color:white;
 }
 
+/*Header*/
+
+/*About*/
+.about-tx{
+    font-size: 40px;
+    text-align: center;
+    margin: 70px 10% 0px 10%;
+
+}
+
+
+#about{
+    display: block;
+    margin: 0 auto;
+    padding:70px 0px;
+}
+
+/*About*/
+
+
+
+/*Team*/
+.team-container{
+    margin: 70px auto;
+    overflow: auto;
+}
+
+.team-div{
+    clear: both;
+    height: auto;
+    overflow: auto;
+    margin: 10px 8%;
+}
+
+.img-team-right {
+    float: right;
+}
+
+.img-team-left{
+    float: left;
+}
+
+.team-img{
+    float: left;
+    width: 15%;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+#team{
+    overflow: auto;
+    padding:70px 0px;
+}
 
 figure a{
     color: white;
     text-decoration: none;
 }
+
+/*Team*/
+
+
+/*Contact us*/
+
+input[type=submit] ,input[type=text] ,textarea{
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+input[type=text]{
+    width: 49.5%;
+    margin-top: 70px;
+}
+
+textarea{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+input[type=submit]{
+    width: 20%;
+    color:white;
+    background-color:#f0b200;
+    margin-bottom: 7%;
+}
+
+#form{
+    width: 60%;
+    margin: 0px 20%;
+}
+
+#contact-us{
+    overflow: auto;
+}
+
+/*Contact us*/
+
+/*Footer*/
+
+footer{
+    text-align: center;
+    height: 50px;
+}
+
+/*Footer*/
+
+
+
+
+
+
+
 
 
 
