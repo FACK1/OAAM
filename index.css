@@ -102,12 +102,13 @@ header{
 
 
 .navigation-list li a:link{
-   
+    text-decoration:none;
     color:#232424;
 }
 
 .navigation-list li a:hover{
     text-decoration:underline;
+
 }
 
 
