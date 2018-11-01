@@ -107,8 +107,7 @@ header{
 }
 
 .navigation-list li a:hover{
-    font-size:30px;
-
+    text-decoration: underline;
 }
 
 
